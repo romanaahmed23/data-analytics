@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cardiology OIA Study Guide</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; font-size: 13px; color: #222; background: #fff; padding: 32px; max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 26px; color: #1A2E4A; border-bottom: 4px solid #1A2E4A; padding-bottom: 6px; margin: 28px 0 10px; page-break-before: always; }
+  h1:first-of-type { page-break-before: avoid; }
+  h2 { font-size: 17px; color: #C0392B; margin: 18px 0 6px; }
+  h3 { font-size: 14px; color: #333; margin: 14px 0 4px; font-style: italic; }
+  p { margin: 5px 0 8px; line-height: 1.55; }
+  ul { margin: 4px 0 8px 22px; }
+  li { margin: 3px 0; line-height: 1.5; }
+  .title-block { text-align: center; margin-bottom: 24px; border-bottom: 5px solid #1A2E4A; padding-bottom: 16px; }
+  .title-block h1 { font-size: 34px; border: none; page-break-before: avoid; margin: 0 0 4px; }
+  .title-block .sub { font-size: 18px; color: #C0392B; font-style: italic; margin: 4px 0; }
+  .title-block .topics { font-size: 12px; color: #666; margin-top: 6px; }
+  .box { border-radius: 5px; padding: 10px 14px; margin: 10px 0; font-weight: bold; font-size: 13px; line-height: 1.55; }
+  .box-yellow { background: #FFF9C4; border: 2px solid #F39C12; }
+  .box-red { background: #FFEBEE; border: 2px solid #C0392B; color: #7B0000; }
+  .box-green { background: #E8F5E9; border: 2px solid #2E7D32; }
+  .box-blue { background: #E3F2FD; border: 2px solid #1565C0; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 16px; font-size: 12px; }
+  th { background: #1A2E4A; color: #fff; padding: 8px 10px; text-align: left; font-size: 12px; }
+  td { padding: 7px 10px; border: 1px solid #ddd; vertical-align: top; line-height: 1.45; }
+  tr:nth-child(even) td { background: #F5F8FF; }
+  tr:nth-child(odd) td { background: #fff; }
+  .emer { color: #C0392B; font-weight: bold; }
+  .urg { color: #E67E22; font-weight: bold; }
+  .safe { color: #2E7D32; font-weight: bold; }
+  .section-num { color: #999; font-size: 12px; }
+  .q-block { background: #F8F8F8; border-left: 4px solid #1A2E4A; padding: 10px 14px; margin: 10px 0 4px; border-radius: 0 5px 5px 0; }
+  .q-block p { font-weight: bold; margin: 0; }
+  .page-break { page-break-before: always; }
+  @media print {
+    body { padding: 12px; font-size: 12px; }
+    h1 { font-size: 20px; page-break-before: always; }
+    h1:first-of-type { page-break-before: avoid; }
+    .title-block h1 { font-size: 26px; }
+    .no-break { page-break-inside: avoid; }
+    .box { page-break-inside: avoid; }
+    table { page-break-inside: auto; }
+    tr { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="title-block">
+  <h1>CARDIOLOGY — OPTOMETRY IN ACTION</h1>
+  <div class="sub">Comprehensive Study Guide</div>
+  <div class="topics">Hypertensive Retinopathy &nbsp;|&nbsp; Vein &amp; Artery Occlusions &nbsp;|&nbsp; Plaques &nbsp;|&nbsp; Anticoagulation &nbsp;|&nbsp; Phenylephrine Safety</div>
+</div>
+
+<!-- SECTION 1 -->
+<h1>1. Blood Pressure Staging &amp; Hypertensive Crisis</h1>
+
+<h2>ACC/AHA 2017 BP Categories</h2>
+<table>
+  <tr><th>Category</th><th>Systolic</th><th>Diastolic</th></tr>
+  <tr><td>Normal</td><td>&lt; 120 mmHg</td><td>&lt; 80 mmHg</td></tr>
+  <tr><td>Elevated</td><td>120–129 mmHg</td><td>&lt; 80 mmHg</td></tr>
+  <tr><td>Stage 1</td><td>130–139 mmHg</td><td>80–89 mmHg (one or both)</td></tr>
+  <tr><td>Stage 2</td><td>≥ 140 mmHg</td><td>≥ 90 mmHg (one or both)</td></tr>
+  <tr><td><strong>Hypertensive Crisis</strong></td><td><strong>&gt; 180 mmHg (and/or)</strong></td><td><strong>≥ 120 mmHg</strong></td></tr>
+</table>
+
+<div class="box box-yellow">⚡ STAGING RULE: Always stage by the NUMBER MOST OUT OF RANGE.<br>Example: BP 120/90 → Diastolic 90 drives the stage → Stage 2, not Normal.</div>
+
+<h2>Hypertensive Crisis — Clinical Decision Making</h2>
+<ul>
+  <li>BP at crisis level does <strong>NOT</strong> automatically mean ambulance</li>
+  <li>Some patients chronically run at crisis-level BP — their body has adapted to long-standing uncontrolled HTN</li>
+  <li>Still carries HIGH risk for stroke and cardiac events</li>
+</ul>
+<table>
+  <tr><th>Scenario</th><th>Action Required</th></tr>
+  <tr><td><strong>Crisis BP + chest pain / stroke sx / SOB</strong></td><td class="emer">AMBULANCE NOW — Emergency Department immediately</td></tr>
+  <tr><td>Crisis BP + disc edema + <strong>NO systemic sx</strong></td><td class="urg">URGENT — urgent care within 24–48h; NOT ambulance</td></tr>
+  <tr><td>Crisis BP + no eye findings + no sx</td><td>Urgent medical management within the week</td></tr>
+</table>
+<div class="box box-red">🚨 DECISION POINT: SYMPTOMS of acute end-organ damage decide ER vs urgent referral — NOT the BP number alone.</div>
+
+<h2>Hypertensive Retinopathy — Stages</h2>
+<table>
+  <tr><th>Stage</th><th>Findings</th></tr>
+  <tr><td><strong>Stage 1</strong></td><td>Arteriolar attenuation + increased light reflex (copper/silver wiring)</td></tr>
+  <tr><td><strong>Stage 2</strong></td><td>Stage 1 + AV crossing changes (AV nicking)</td></tr>
+  <tr><td><strong>Stage 3</strong></td><td>Stages 1+2 + hemorrhages + cotton wool spots (CWS)</td></tr>
+  <tr><td><strong>Stage 4</strong></td><td><span class="emer">DISC EDEMA</span> = Stages 1–3 + disc edema = Hypertensive Crisis / End-Organ Damage</td></tr>
+</table>
+<div class="box box-yellow">⚡ EXAM ANCHOR: Stage 4 = Disc Edema = End-Organ Damage = Hypertensive Crisis.<br>Disc edema from HTN is the most urgency-defining eye finding in this module.</div>
+
+<h2>Case 1 Anchor — Boards-Style</h2>
+<ul>
+  <li>50-year-old male; no medical care since 2017; last BP 240/140; never took prescribed lisinopril</li>
+  <li>Presents to optometry: central blur OD ×2 weeks; VA 20/400 OD / 20/25 OS; normal anterior segment</li>
+  <li>In-office BP: <strong>292/162</strong> — highest the instructor has seen in clinic</li>
+  <li>Patient calm, no chest pain, no stroke sx, no SOB → long-standing adaptation</li>
+  <li>Management: urgent care + pharmacy within 48h + retina referral for macular edema; <strong>NOT ambulance</strong></li>
+</ul>
+<div class="box box-blue">🧠 MNEMONIC: Central blur + VA drop + chronic HTN history → think POSTERIOR SEGMENT (disc/macula), NOT anterior segment.</div>
+
+<!-- SECTION 2 -->
+<h1>2. Retinal Vein Occlusions (BRVO &amp; CRVO)</h1>
+
+<h2>Pathophysiology</h2>
+<ul>
+  <li>Chronic HTN → arteriosclerosis → arteries harden, narrow, increase light reflex</li>
+  <li>AV nicking: hardened artery crosses over vein → compresses it → venous collapse</li>
+  <li>Sudden hemorrhage into retina → "Blood and Thunder" appearance in CRVO</li>
+</ul>
+<div class="box box-green">✅ VISUAL RULE: Vein Occlusion = BLOOD (hemorrhagic) + THROMBUS<br>Artery Occlusion = WHITE (infarcted) + EMBOLUS</div>
+
+<h2>Types &amp; Risk Factors</h2>
+<ul>
+  <li><strong>CRVO:</strong> entire retina affected; Blood and Thunder appearance</li>
+  <li><strong>BRVO:</strong> sector of retina; artery compresses branch vein</li>
+  <li><strong>Risk factors:</strong> Age, HTN, Diabetes, Vasculopathy, Obesity, Coagulation disorders, Smoking</li>
+</ul>
+
+<h2>Management</h2>
+<ul>
+  <li>Take BP in office; communicate with PCP for BP and risk factor management</li>
+  <li>Often self-resolves over months</li>
+  <li>Macular edema → retina referral + Anti-VEGF injections</li>
+  <li><strong>NOT an emergency</strong> — never send to ER for vein occlusion alone</li>
+</ul>
+<div class="box box-yellow">⚡ MNEMONIC: Vein problem = Bleeding + Time + PCP. NEVER an emergency.</div>
+
+<!-- SECTION 3 -->
+<h1>3. Plaques &amp; Artery Occlusions</h1>
+
+<h2>Hollenhorst Plaque</h2>
+<ul>
+  <li>Shiny, hyper-reflective <strong>cholesterol embolus INSIDE an artery</strong> (usually at bifurcation)</li>
+  <li>Most commonly originates from <strong>CAROTID ARTERIES</strong></li>
+  <li>Best seen on: Infrared imaging, OCT; also visible clinically</li>
+  <li>Must be <em>inside</em> the artery to qualify as Hollenhorst</li>
+</ul>
+<div class="box box-blue">🧠 MNEMONIC: Shiny + Inside artery + Bifurcation = Hollenhorst. A sparkling cholesterol crystal stuck at a fork in the road.</div>
+
+<h2>Plaque Types (Course Focus = Hollenhorst)</h2>
+<table>
+  <tr><th>Type</th><th>Origin</th><th>Size/Danger</th><th>Course Emphasis</th></tr>
+  <tr><td><strong>Hollenhorst</strong></td><td>Carotid artery (most common)</td><td>Smaller; very shiny</td><td><span class="emer">PRIMARY FOCUS for this course</span></td></tr>
+  <tr><td>Calcific</td><td>Cardiac origin</td><td>Larger, more dangerous</td><td>Covered more in AOD</td></tr>
+  <tr><td>Platelet-Fibrin</td><td>Cardiac origin</td><td>Larger, more dangerous</td><td>Covered more in AOD</td></tr>
+</table>
+
+<h2>Asymptomatic vs. Symptomatic Plaque — CRITICAL DISTINCTION</h2>
+<table>
+  <tr><th>Type</th><th>Presentation</th><th>Urgency</th><th>Management</th></tr>
+  <tr><td><strong>Asymptomatic</strong></td><td>Found incidentally; no vision event</td><td class="urg">URGENT outpatient (NOT ER)</td><td>Carotid Doppler; PCP; aspirin/anticoagulation; within 2 weeks</td></tr>
+  <tr><td><strong>Symptomatic (TMVL)</strong></td><td>Curtain/shade vision loss that resolves as embolus moves</td><td class="emer">EMERGENCY (stroke protocol)</td><td>Immediate ER; emergent stroke workup; screen for neurologic sx</td></tr>
+</table>
+<div class="box box-red">🚨 ABSOLUTE RULE: Curtain vision loss (TMVL) = STROKE = ER NOW.<br>Ask about: numbness, weakness, tingling, trouble speaking/swallowing, double vision.</div>
+
+<h2>Retinal Artery Occlusion (BRAO / CRAO)</h2>
+<ul>
+  <li>Plaque lodges and blocks flow → artery occlusion → downstream retina loses oxygen</li>
+  <li>Appearance: diffuse retinal <strong>WHITENING</strong> + cherry red spot (CRAO) or sector whitening (BRAO)</li>
+  <li>Think of it as a giant cotton wool spot — RNFL swells from ischemia</li>
+  <li>OCT shows very swollen (thickened) retina from cellular ischemia (oxygen loss → cellular dysfunction → swelling)</li>
+</ul>
+<div class="box box-red">🚨 ARTERY OCCLUSION = STROKE EQUIVALENT = ER IMMEDIATELY<br>Stroke workup within 24 hours. If patient &gt;50: ALWAYS rule out Giant Cell Arteritis (GCA).</div>
+
+<h2>Urgency Ladder Summary</h2>
+<table>
+  <tr><th>Condition</th><th>Urgency</th><th>Timeline</th></tr>
+  <tr><td>Artery occlusion (BRAO/CRAO)</td><td class="emer">EMERGENCY</td><td>Immediate ER; stroke workup within 24h</td></tr>
+  <tr><td>Transient Monocular Vision Loss (TMVL)</td><td class="emer">EMERGENCY</td><td>Immediate ER; treat like stroke</td></tr>
+  <tr><td>HTN crisis + systemic sx (chest pain, SOB, stroke sx)</td><td class="emer">EMERGENCY (ambulance)</td><td>Call 911 now</td></tr>
+  <tr><td>Asymptomatic Hollenhorst plaque</td><td class="urg">URGENT (not ER)</td><td>Carotid study + PCP within 2 weeks</td></tr>
+  <tr><td>HTN crisis + disc edema + NO systemic sx</td><td class="urg">URGENT (not ER)</td><td>Urgent care within 24–48h</td></tr>
+  <tr><td>Vein occlusion (BRVO/CRVO)</td><td class="safe">NOT emergency</td><td>PCP + BP; retina if macular edema</td></tr>
+</table>
+
+<!-- SECTION 4 -->
+<h1>4. Anticoagulation &amp; Retinal Bleeding</h1>
+
+<h2>The Common Patient Question</h2>
+<p>Patients on anticoagulants (aspirin, Eliquis, Warfarin, Plavix) ask: <em>"Will my blood thinner increase retinal bleeding or convert my dry AMD to wet AMD?"</em></p>
+
+<h2>The Answer</h2>
+<ul>
+  <li><strong>CONTINUE anticoagulants</strong> — do NOT advise stopping them because of retinal bleeding concerns</li>
+  <li><strong>AREDS-2 study:</strong> showed NO increased risk of progression to exudative (wet) AMD with daily aspirin or anticoagulants</li>
+  <li>Stroke/cardiac risk from stopping anticoagulation OUTWEIGHS any retinal bleeding concern</li>
+</ul>
+<div class="box box-yellow">⚡ EXAM RULE: Patient on ASA/anticoagulants + AMD → CONTINUE the medication.<br>If question asks: "Should patient stop aspirin because AMD might bleed?" → Answer: NO.</div>
+
+<!-- SECTION 5 -->
+<h1>5. Phenylephrine Safety</h1>
+
+<h2>2.5% vs. 10% Phenylephrine</h2>
+<table>
+  <tr><th>Concentration</th><th>Common Use</th><th>Risk Level</th><th>Clinical Rule</th></tr>
+  <tr><td><strong>2.5%</strong></td><td>Routine dilation in outpatient clinic</td><td class="safe">VERY LOW — no significant BP or HR change</td><td>Use on ALL outpatients; safe for HTN, DM, CAD, asthma</td></tr>
+  <tr><td><strong>10%</strong></td><td>Breaking synechiae; some clinics/states</td><td class="urg">LOW but real — can raise HR ~+15bpm</td><td>Caution in CV risk patients; monitor ~1 hour; may not be available in MA</td></tr>
+</table>
+<div class="box box-green">✅ MNEMONIC: 2.5% = Safe for all. 10% = Be careful. Never confuse the two on an exam.</div>
+
+<h2>Common Questions Answered</h2>
+<h3>Patient with hypertension — use phenylephrine?</h3>
+<p>YES. 2.5% is safe. Study showed no significant BP or HR change within 20–60 minutes after instillation.</p>
+<h3>Patient with CAD, 3 MIs, CABG, DM — use phenylephrine?</h3>
+<p>YES. Comorbidities alone are NOT a contraindication. More important to see the retina, especially with DM.</p>
+<h3>Patient with asthma — use phenylephrine?</h3>
+<p>YES. Asthma is NOT a contraindication to phenylephrine. Asthma screening in clinic is for <strong>carbonic anhydrase inhibitors and glaucoma meds</strong> — not phenylephrine. Different drug class entirely.</p>
+<h3>When would you possibly avoid phenylephrine?</h3>
+<p>Very elderly or medically unstable <em>inpatient</em> scenarios (e.g., patient who just had open-heart surgery). In typical outpatient optometry clinic settings, 2.5% is always appropriate.</p>
+<h3>Is tropicamide the same concern?</h3>
+<p>NO. Tropicamide is an anticholinergic — completely different drug class. Tropicamide is always fine. Tropicamide cautions relate to Down syndrome, not cardiac/pulmonary risk.</p>
+<div class="box box-yellow">⚡ EXAM ANCHOR: You will not kill your patient with 2.5% phenylephrine. In outpatient optometry = 2.5% always appropriate.</div>
+
+<!-- SECTION 6 -->
+<h1>6. Other Cardiology-Related Eye Findings</h1>
+<table>
+  <tr><th>Finding</th><th>Association</th><th>Action</th></tr>
+  <tr><td><strong>Arcus Senilis (&lt;45 yrs)</strong></td><td>Corneal lipid ring; may indicate hyperlipidemia</td><td>Communicate with PCP; check lipid panel</td></tr>
+  <tr><td><strong>Arcus Senilis (&gt;45 yrs)</strong></td><td>Normal aging finding</td><td>Reassure; no urgent action</td></tr>
+  <tr><td><strong>Xanthelasma</strong></td><td>Yellow cholesterol plaques on eyelids; hyperlipidemia</td><td>Communicate with PCP; may indicate elevated CV risk</td></tr>
+  <tr><td><strong>Christmas Tree Cataract</strong></td><td>Polychromatic needle-like crystals in lens</td><td>Associated with myotonic dystrophy (systemic condition)</td></tr>
+</table>
+
+<!-- SECTION 7 -->
+<h1>7. Mnemonics &amp; Memory Anchors</h1>
+<table>
+  <tr><th>Mnemonic</th><th>What It Helps You Remember</th></tr>
+  <tr><td><strong>White = Artery, Blood = Vein</strong></td><td>Artery occlusion → white infarcted retina (embolus). Vein occlusion → hemorrhagic (thrombus).</td></tr>
+  <tr><td><strong>Curtain vision = Stroke = ER NOW</strong></td><td>Transient monocular vision loss that fades like a curtain = TMVL = treat like stroke.</td></tr>
+  <tr><td><strong>2.5 = Safe, 10 = Careful</strong></td><td>2.5% phenylephrine safe for all outpatients. 10% can raise HR; use caution.</td></tr>
+  <tr><td><strong>Stage by the worst number</strong></td><td>Always grade HTN by the most abnormal value (systolic or diastolic).</td></tr>
+  <tr><td><strong>Disc edema = Stage 4 = Crisis</strong></td><td>Optic disc edema from HTN = end-organ damage = hypertensive crisis level.</td></tr>
+  <tr><td><strong>Shiny at bifurcation = Hollenhorst</strong></td><td>Bright shiny cholesterol embolus inside artery at bifurcation = Hollenhorst plaque.</td></tr>
+  <tr><td><strong>Symptoms decide the ambulance</strong></td><td>HTN crisis number alone ≠ ambulance. Systemic symptoms (chest pain, stroke sx) do.</td></tr>
+  <tr><td><strong>Vein = BP + PCP + Time</strong></td><td>Vein occlusion: control BP, PCP, may self-resolve. NEVER emergency.</td></tr>
+  <tr><td><strong>Artery = ER + Stroke + GCA</strong></td><td>Artery occlusion: immediate ER, stroke workup within 24h, rule out GCA if age >50.</td></tr>
+  <tr><td><strong>Continue the anticoagulant</strong></td><td>AMD + anticoagulants: do NOT stop meds. Stroke risk &gt; retinal bleeding risk (AREDS-2).</td></tr>
+  <tr><td><strong>Asthma questions are for CAIs</strong></td><td>Asthma screening = carbonic anhydrase inhibitors. NOT about phenylephrine safety.</td></tr>
+</table>
+
+<!-- SECTION 8 -->
+<h1>8. HIGH-YIELD SUMMARY TABLE</h1>
+<p style="margin-bottom:10px; font-style:italic;">Cover the right columns and test yourself.</p>
+<table>
+  <tr><th>Finding / Condition</th><th>Mechanism / Cause</th><th>Urgency</th><th>Management</th></tr>
+  <tr><td><strong>Stage 4 HTN Retinopathy (Disc Edema)</strong></td><td>Chronic HTN ≥180/120; disc edema = end-organ damage</td><td class="urg">URGENT (ER only if systemic sx)</td><td>Urgent care 24–48h; restart antihypertensives; retina referral; ER if chest pain or stroke sx</td></tr>
+  <tr><td><strong>BRVO / CRVO</strong></td><td>HTN → arteriosclerosis → AV nicking → vein compressed → hemorrhage</td><td class="safe">NOT emergency</td><td>BP control; PCP; self-resolves; retina if macular edema; Anti-VEGF</td></tr>
+  <tr><td><strong>Hollenhorst Plaque (Asymptomatic)</strong></td><td>Cholesterol embolus from carotid; shiny at arterial bifurcation</td><td class="urg">URGENT outpatient only</td><td>Carotid Doppler; PCP; aspirin/anticoagulation; within 2 weeks</td></tr>
+  <tr><td><strong>Hollenhorst Plaque (Symptomatic / TMVL)</strong></td><td>Embolus temporarily lodges → curtain vision loss → resolves</td><td class="emer">EMERGENCY (stroke protocol)</td><td>Immediate ER; emergent stroke workup; screen for neurologic sx</td></tr>
+  <tr><td><strong>BRAO / CRAO</strong></td><td>Embolus blocks retinal artery → ischemia → white retina</td><td class="emer">EMERGENCY (stroke equivalent)</td><td>Immediate ER; stroke workup within 24h; rule out GCA if age &gt;50</td></tr>
+  <tr><td><strong>HTN Crisis + Systemic Sx</strong></td><td>BP ≥180/120 + chest pain/SOB/stroke sx</td><td class="emer">EMERGENCY (ambulance)</td><td>911 now; hospitalization</td></tr>
+  <tr><td><strong>HTN Crisis, No Systemic Sx</strong></td><td>BP ≥180/120; calm patient; no chest pain or stroke sx</td><td class="urg">URGENT (24–48h)</td><td>Urgent care; antihypertensives; NOT ambulance</td></tr>
+  <tr><td><strong>Anticoagulation + AMD</strong></td><td>Patient on ASA/anticoagulants worries about retinal bleeding</td><td>Counseling only</td><td>CONTINUE anticoagulants (AREDS-2); stroke risk &gt; retinal risk</td></tr>
+  <tr><td><strong>2.5% Phenylephrine</strong></td><td>Alpha-1 agonist; mydriatic; no systemic BP/HR effect</td><td class="safe">Safe for all outpatients</td><td>Use on all patients including HTN, DM, CAD; do not withhold</td></tr>
+  <tr><td><strong>Arcus Senilis (&lt;45)</strong></td><td>Corneal lipid ring; possible hyperlipidemia</td><td>Low urgency</td><td>Communicate with PCP; lipid panel</td></tr>
+  <tr><td><strong>Xanthelasma</strong></td><td>Yellow cholesterol plaques on eyelids</td><td>Low urgency</td><td>Communicate with PCP; elevated CV risk marker</td></tr>
+</table>
+
+<!-- SECTION 9 -->
+<h1>9. Practice Questions</h1>
+
+<div class="q-block"><p>Q1. A 63-year-old woman has BP 185/122 and bilateral disc edema on fundus exam. She is calm, denies chest pain, SOB, and has no stroke symptoms. What is the most appropriate management?</p></div>
+<div class="box box-green">Answer: URGENT but NOT ambulance. HTN crisis (BP ≥180/120) + disc edema = Stage 4 / end-organ damage. BUT no systemic symptoms = emergent timeline, not emergency department NOW. Management: urgent care within 24–48h; restart/optimize antihypertensives; retina referral for macular edema. Do NOT call ambulance based on BP and eye findings alone without systemic symptoms.</div>
+
+<div class="q-block"><p>Q2. A 55-year-old male reports a curtain descending over his left eye vision for ~5 minutes, which fully resolved. He is now asymptomatic and fundus exam is normal. What do you do?</p></div>
+<div class="box box-red">Answer: EMERGENCY — send to ER immediately. This is Transient Monocular Vision Loss (TMVL) = stroke symptom. Normal fundus does NOT change urgency — the embolus may have moved. Ask about neurologic symptoms (numbness, weakness, trouble speaking). Send to ER for emergent stroke workup. Also order carotid Doppler.</div>
+
+<div class="q-block"><p>Q3. On routine exam of a 69-year-old with CAD, 3 MIs, HTN, HLD, and DM, you see a small shiny bright spot inside a retinal artery near a bifurcation OS. He is completely asymptomatic. What is the finding and management?</p></div>
+<div class="box box-green">Answer: Asymptomatic Hollenhorst plaque. Shiny cholesterol embolus inside artery at bifurcation = Hollenhorst. Asymptomatic = URGENT outpatient, NOT ER. Management: communicate with PCP, carotid Doppler within 2 weeks, consider aspirin/anticoagulation, educate patient about TMVL warning signs and to seek ER care immediately if curtain vision occurs.</div>
+
+<div class="q-block"><p>Q4. A patient with wet AMD asks if they should stop their low-dose aspirin (81mg daily) prescribed by their cardiologist for stroke prevention, worried it will worsen their macular bleeding. What do you tell them?</p></div>
+<div class="box box-green">Answer: Continue the aspirin. AREDS-2 study showed NO increased risk of progression to exudative AMD with daily aspirin or anticoagulants. The stroke/cardiac risk of stopping anticoagulation FAR outweighs any retinal bleeding concern. Do NOT advise stopping anticoagulants due to fear of retinal bleeding from AMD.</div>
+
+<div class="q-block"><p>Q5. You are about to dilate a 71-year-old patient with CAD, 4 CABG surgeries, 3 MIs, DM, HTN, and HLD. Should you use topical phenylephrine 2.5%?</p></div>
+<div class="box box-green">Answer: YES. Use 2.5% phenylephrine. Comorbidities alone are NOT a contraindication. 2.5% causes no significant BP or HR change. Patients with DM and cardiac history dilate poorly — it is MORE important, not less, to achieve adequate dilation to examine the retina thoroughly.</div>
+
+<div class="q-block"><p>Q6. A 59-year-old male has blurry vision OD ×2 weeks. BP is 155/82. Fundus shows flame hemorrhages and tortuous dilated veins in a wedge-shaped distribution. What is the diagnosis and management?</p></div>
+<div class="box box-green">Answer: Branch Retinal Vein Occlusion (BRVO). HTN → arteriosclerosis → AV nicking → vein compressed → sector hemorrhage. Management: BP in office (done), communicate with PCP for BP and risk factor control, retina referral if macula involved (anti-VEGF may be needed). NOT an emergency. May self-resolve over months.</div>
+
+<div class="q-block"><p>Q7. Which best distinguishes a retinal artery occlusion from a retinal vein occlusion on fundus exam? (A) Disc edema, (B) White ischemic retina with cherry red spot, (C) Flame-shaped hemorrhages throughout a quadrant, (D) AV crossing changes</p></div>
+<div class="box box-green">Answer: (B) White ischemic retina with cherry red spot = CRAO. Artery = WHITE + embolus. Vein = BLOOD (hemorrhages) + thrombus. (A) disc edema can occur in both. (C) flame hemorrhages = vein occlusion. (D) AV crossing changes = arteriosclerosis / vein occlusion setup, not artery occlusion itself.</div>
+
+<div class="q-block"><p>Q8. A 74-year-old has sudden painless vision loss OD. Fundus shows a diffusely white retina with a cherry red spot. What is the diagnosis, immediate management, and what age-related condition must be ruled out?</p></div>
+<div class="box box-red">Answer: CRAO (Central Retinal Artery Occlusion) = stroke equivalent. Immediate ER referral; stroke workup within 24 hours. MUST rule out Giant Cell Arteritis (GCA) in patients &gt;50 years old. GCA can cause CRAO through vasculitic obliteration and requires urgent systemic steroids.</div>
+
+<div class="q-block"><p>Q9. What BP defines hypertensive crisis, and what single clinical factor determines whether to call an ambulance?</p></div>
+<div class="box box-green">Answer: Hypertensive crisis = BP &gt;180 systolic AND/OR ≥120 diastolic. The single most important factor for ambulance = SYMPTOMS OF ACUTE END-ORGAN DAMAGE (chest pain, shortness of breath, stroke-like symptoms). The number alone does not equal ambulance — symptoms do.</div>
+
+<div class="q-block"><p>Q10. Should you avoid topical 2.5% phenylephrine in a patient with asthma? What drug class IS actually affected by a patient having asthma?</p></div>
+<div class="box box-green">Answer: No — phenylephrine 2.5% is safe regardless of asthma. Asthma is NOT a contraindication to phenylephrine. The drug class affected by asthma = CARBONIC ANHYDRASE INHIBITORS (and some glaucoma medications). That is why clinics screen for asthma — not because of phenylephrine. Tropicamide is also unrelated (anticholinergic, different class).</div>
+
+<div style="text-align:center; margin-top:30px; color:#999; font-style:italic; font-size:12px; border-top:1px solid #ddd; padding-top:12px;">
+  Study Guide — Cardiology: Optometry in Action &nbsp;|&nbsp; Good luck on your exam!
+</div>
+
+</body>
+</html>
